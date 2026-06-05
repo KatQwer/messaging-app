@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+
+# OS Files
+.DS_STORE
+Thumbs.db
+
+# Logs
+*.log
+
+#Environments
+.env
+.env.*
+venv/
+.venv/

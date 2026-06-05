@@ -1,1 +1,2 @@
 # Messaging App
+A messaging system where each account has a distinct local encryption ID. Messages get sent with a decryption key specific for that message, but the only way to access that is through the encryption ID of the receiving account. Each message has its own encryption and decryption key that get destroyed as soon as the message is read. Once the message is read, it gets saved locally.
